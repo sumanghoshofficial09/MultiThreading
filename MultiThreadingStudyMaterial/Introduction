@@ -1,0 +1,46 @@
+We are going to talk about the fundamental of threads
+
+we are going to talk about life cycle associated with given threads 
+-----------------------------------------
+we are going to talk about synchronization , wait and notify key word 
+
+we are going to talk about synchronized collection and thread safe data structure 
+----------------------------------------------------
+we are going to talk about parallelization 
+
+how to run the algorithm in parallel 
+
+like merge sort algorithm and so on 
+
+----------------------------------
+
+then we are going to talk about Fork-Join Framework 
+
+after that we are going to talk about stream api 
+
+how to process collection of in efficient manner 
+
+there are going to be several other topics 
+
+how to implement dining philoshoper problem  problem from scratch 
+
+how to implement the student library problem from sratch 
+--------------------------------------------------
+
+
+Multi Threading : 
+
+Theory behind multi threading 
+
+THread manipulation 
+
+wait - notify 
+
+inter-thread communication 
+
+executors 
+
+example for multi threading 
+
+
+
