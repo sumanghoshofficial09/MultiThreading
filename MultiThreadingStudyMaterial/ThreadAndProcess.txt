@@ -89,3 +89,19 @@ whenever we create  process , we need to handle parent process as well
 
 
 
+creating a new thread is quite easier as we dont have to handle parent thread , we dont have to allocate expensive resources 
+
+
+as multiple thread exist in a given process and each thread shared the memory 
+
+so the content of the memory become inconsistent 
+
+many thread can manipulate the same memory location
+
+we need to make sure data we are storing in given process must be consistent in multi threading environment 
+
+this is why we have to deal with snchronization and concurrent programming 
+
+
+
+
