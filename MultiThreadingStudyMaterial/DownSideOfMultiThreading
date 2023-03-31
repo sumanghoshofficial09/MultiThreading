@@ -1,0 +1,69 @@
+Creating and using multiple threads is not always a good idea 
+
+first problem : 
+
+Threads are manipulating same memory locations , because they belongs to the same process
+
+there  are multiple threads registeres in given process , and process contains register , stack memory and heap memory 
+
+all the thread are sharing this resources 
+
+so they are manipulating the same memory area , we need to deal with synchronisation 
+
+we have to make sure that multiple threads should not manipulate the same data 
+
+
+data become inconsistent if multiple threads are manipulating same memory location 
+
+second problem 
+-----
+Synchronization  is not straight forward , it is not easy to design multi threaded application 
+
+if there is a bug in multi threaded application , it is very difficult to find out what is the address only 
+
+fork join framework is bit easier to design and work 
+
+3rd problem : 
+
+-----------------------
+using multiple thread is expensive 
+why /
+
+
+because the cpu has to save loca data 
+like memory pointer 
+
+the memory location of the current thread and then has to load other thread as well 
+
+
+lets say there are 4 threads executed by central processing unit 
+
+then every time when there is a switch between the threads 
+
+then the cpu has to save the actual thread and has to load the next thread 
+
+means loading the context of the next thread
+
+Switching between threads is expensive 
+
+
+it is expensive to switch between threads 
+
+the algorithm become too slow with multiple threads 
+
+
+it is not already true that using multiple thread will decrease the running time 
+
+
+few number of threads can decrease the running time if we use huge number of threads then running time will increase significantly 
+
+
+if we use huge number of thread the running time will increase than single threaded application 
+
+
+most of the algorithm are sequential but algorithm can be run with multiple thread like merge sort and quick sort 
+
+
+
+
+
