@@ -1,0 +1,53 @@
+There are multiple thread in given application 
+
+lets assume we have multiple thread in our applications 
+
+so we can create as many thread in any given process we want 
+
+in generic case let assume there are k number of thread in the application
+
+
+there is huge question how cpu is going to handle these threead 
+
+
+how these threads are going to be executed :
+
+Time Slicing Algorithm 
+
+some how the CPU has to deal with all the thread in the applications 
+
+
+we are assuming that there are only a single processor 
+
+
+modern computer there are huge number of available cpus 
+
+
+time slicing operations 
+
+
+lets say there are two thread that is there application , that needed to handle using a single cpu 
+
+so it will handle first thread short amount of time and then second thread , then the first thread like that 
+
+while the cpu is executing the first thread the second thread has to wait 
+
+this is how multiple threads are heandled with the help  of single processors 
+
+usually modern computers has multiple processors or multiple proceesors cores 
+
+
+when there are multiple processors or multiple processors core 
+
+then thread can be handled simultaneously by using different ptocessors or different cores 
+
+
+if there number of threads greater than number of cores then time slicing algorithm is going to be used 
+
+
+
+
+
+
+
+
