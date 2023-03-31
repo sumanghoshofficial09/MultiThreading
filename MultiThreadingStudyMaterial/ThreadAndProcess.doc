@@ -1,0 +1,91 @@
+By default , Programming languages are sequential 
+
+which means they execute the command one by one 
+
+line by line basis 
+
+lets say we have main method in java 
+----------------------------------
+
+public static void main(String args[])
+{
+method1();
+
+method2();
+
+method():
+
+}
+
+by default 
+Single thread application this operation are executed one by one 
+
+the problem is that time consuming application will freeze the entire applications 
+
+lets say we need to download a huge dataset from the internet  , while dealing with machine learning algorithm 
+
+
+
+multi threading  is to separate multiple time consuming task 
+
+
+lets say we are dealing with stock market application and application is dealing with downloading data from web let say we are downloading data from Yaoo finance 
+
+then it generates time series model 
+
+what is the problem over here , it will take 2-3 mintues to fetch the data 
+
+so what will happen the application in the user computer is going to be feeze 
+
+
+solution is we need to use multi threading for this problem , we need to use separate thread 
+
+lets take the example copying directory in windows , operating system does 
+
+
+Multithreading is the ability of CPU  to run multiple process or thread 
+
+what is process and what is Thread 
+
+Thread and Processes are independent sequnces of execution 
+
+lets talk about one by one 
+
+Process is instance of programme 
+
+this is the fundamental unit of working 
+
+for example when you open distinct process or system they are all process 
+
+operating system assign distinct register , stack memory and heap memory to all processes 
+
+we have given process and inside the process we have register , stack memory and heap memory 
+
+
+this resources is associated with given process 
+
+in java we can create process using ProcessBuilder Class
+
+in the command line if you type tasklist it is going to show all the  processes running
+
+
+Every Single process has PID , process identification number 
+
+we are here not dealing with processes , creating a processes is quite expensive , because we have to allocate register , we need to allocate heap memomry 
+
+we need to allocate stack memory 
+
+so it is quite expensive to create new process 
+
+the processes in operating system form directed graph , ecey single process has so called parent process 
+
+whenever we create  process , we need to handle parent process as well 
+
+ it is quite expensive 
+ 
+ Thread is light weight process 
+ 
+ Thread exist within given processes 
+
+
+
