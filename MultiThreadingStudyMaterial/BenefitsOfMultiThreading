@@ -1,0 +1,16 @@
+we dont have to wait for time consuming applications, using time slicing algorithm the processor will give chance to other waiting process, 
+
+we can design better responsive application - we can do several operations concurrently 
+
+we can achieve better CPU utilization 
+
+By default every java application is single threaded 
+
+we can utilize more CPU cores with multiple threads
+
+we can utilize multiple cores , can run multiple thread so that we can improve performance 
+
+if there are multiple processing unit every thread will be executed in one processing unit 
+
+java is not going to any thread , we have to create threads explicitly 
+
