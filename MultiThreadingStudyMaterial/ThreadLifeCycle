@@ -1,0 +1,60 @@
+in this lecture we are going to talk about THred Lifecycle 
+
+there are 4 life cycles associated with given Thread 
+
+
+create a new thread : New State 
+
+every single thread is New State untill we call the start 
+
+
+whenever we instantiate a new Thread 
+this is called new State 
+
+when we call start method , new Thread is in Active Thread 
+
+
+when we were talking about time slicing algorithm there are multiple Thread 
+
+the CPU has to handle 
+
+there are two sub states Runnable and Running 
+
+lets say thread is active state 
+
+that is means THread is currently in Runnable state 
+
+it is not handled at this moment because CPU is busy with other thread 
+
+this is runnable state , thread is ready to be executed 
+
+when thread got chance to run by the CPU , it is in running state 
+
+there is so called blocked or waiting state 
+
+whenever we call join method , wait method or sleep method 
+
+essentialy we thread has to wait for other thread to finish , this is blocked or waiting state 
+
+
+when the thread is in waiting state , it is not consuming any CPU cycles 
+
+
+ThreadScheduler will notify the Thread 
+
+this is blocked or waiting state when a given thread is waiting for another thread to finish its 
+
+
+job 
+
+
+we are going to talk about producer and consumer problem with the help of wait and notify 
+
+method 
+
+
+Finally there is Terminated Stage :
+
+
+when the given thread has finished its task
+
