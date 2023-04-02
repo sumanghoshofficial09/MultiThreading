@@ -1,0 +1,95 @@
+in this lecture we are going to talk about Thread Priority 
+
+when there is a given process there are several threads 
+
+
+lets assume there are 5 threads with in a given process 
+
+these threads are executes by central processing unit 
+
+a single central processing unit can execute a single thread at a time 
+
+this is why THread Scheduler came to picture which is part of Java virtual machine 
+
+
+Thread scheduler will decide which thread will be executed by Central Processing Unit 
+
+
+essentially Time slicing algorithm is handled by Thread scheduler 
+
+if we have 5 threads or multiple threads , in what order central processing unit 
+
+
+this is why we need to talk about Thread Priorities 
+
+------------------------------------------------------------
+
+we can assign the priority number from 1 to 10  to the thread 
+
+MIN_PRIORITY  : 1 
+
+MAX_PRIORITY : 10 
+
+------------------------------------------
+
+the minimum priority is one and the maximum priority is 10 
+
+
+the default priority is 5 
+
+-------------------------------------
+
+if we dont define the priority for given thread it will have the default priority 5 
+
+
+
+thread with higher priority will be executed before thread with lower priority 
+
+-----------------------------
+
+if we asssue that the all the thread has same priority value 
+
+theese thread  are going to executed in FIFS manner : first in first server manner 
+
+------------------------------------------
+
+
+this is why thread scheduler has a queue of abstract data type :
+
+
+THread scheduler can use time slicing alogorithm , in order  to execute multiple threads 
+
+
+if we assume all the threads having the same priority then we have to assume that 
+
+thread scedhuler is using time slicing algorithm to run the first thread for small amount of time , next the second thread for amount of time , 
+
+then the 3 rd thread  will be executed for small amount of time and so in 
+ 
+ --------------------------------------------------------------
+ 
+ what will happen if there are some threads with higher priority value 
+ 
+ -----------------------------------
+ 
+ higher priority threads will get executed before lower priority threads 
+ 
+ ---------------------------------------------------------------------------
+ 
+ it may depends on OS 
+ 
+ it may also happen that thread with low priority will not get the chance to be executed at all : this is called Thread starvation 
+ 
+ 
+ -----------------------
+ Java virtual machine and Thread scheduler will try to avoid the starvation situation by running lower priority thread when required 
+ 
+ ------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+
+
+
+
