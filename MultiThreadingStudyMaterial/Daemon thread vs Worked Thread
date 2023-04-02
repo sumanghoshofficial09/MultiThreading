@@ -1,0 +1,7 @@
+in java a thread can be so called daemon thread or worker thread 
+
+
+when java programme start , one thread begin running immediately , this is called main thread 
+
+it is going to intitaze application and it is going to search for main method 
+
