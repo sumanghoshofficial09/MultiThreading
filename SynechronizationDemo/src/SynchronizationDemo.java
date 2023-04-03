@@ -22,6 +22,11 @@ public class SynchronizationDemo {
 	 * 
 	 * thread has to wait for the synchronised method 
 	 * 
+	 * sychronized method will ensure this method is going to be exrcuted only by one 
+	 * 
+	 * thread 
+	 * 
+	 * 
 	 * 
 	 * 
 	 */
