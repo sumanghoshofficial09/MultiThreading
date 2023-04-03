@@ -1,0 +1,59 @@
+Memory Management in multi Threading 
+
+threads are light weight processes 
+
+
+typical difference is that THreads of same process runs in shared memory spaces 
+
+
+but processes run in separate memory spaces 
+
+
+Thread shared the same memory , we need to deal with synchronisation 
+
+lets talk about two main type of memory 
+
+we have stack memory and we have heap memory 
+
+we have stack memory and we have heap memory 
+
+local variables , method arguments and method calls are stored in stack memory 
+
+whenever we instantiates a class , we create new objects , those objects are stored on the heap memory and live as long as it is referenced from some where 
+
+we can say that the stack memory is fast but the heap memory is slow in terms of access 
+
+it will take more time to access the object in the heap memory 
+
+
+stack memory is smaller and heap memory is larger 
+------------------------------------------------
+
+stack is faster and it stores local variables and , method argumenrs and method calls 
+
+---------------
+
+
+heap is larger , slow and store object references 
+
+
+every thread has its own stack memory but it shared the heap memory spaces with other threads 
+
+
+main purpose of the synchronizations is the sharing of the resources without interfering with other threads 
+
+
+we have to talk about locking because we know that the threads are sharing the heap memory resources 
+
+
+
+thread runs in shared memory space but processes run in separate memory spaces 
+
+
+
+main memeory ---------  stack  cache  thread1 
+  -------- stack cache thread2 
+
+
+
+
